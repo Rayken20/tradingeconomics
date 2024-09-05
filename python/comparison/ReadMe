@@ -1,0 +1,38 @@
+## GDP Comparator
+## Project Overview
+- The GDP Comparator is a web application that allows users to compare the Gross Domestic Product (GDP) of two countries using a bar chart. - This project uses data from the Trading Economics API to fetch and display GDP values for Sweden and New Zealand, providing an easy way to visualize and compare economic performance.
+
+## Features
+- Country Selection: Users can choose two countries from a dropdown menu.
+- Bar Chart Visualization: Displays a bar chart comparing the GDP of the selected countries over time.
+- Interactive: Hover over the chart to see detailed GDP values.
+- Responsive Design: The application is designed to be mobile-friendly and responsive.
+
+## Technologies Used
+- Frontend: HTML, CSS, JavaScript
+- Charting Library: Chart.js
+- Backend: Flask (for local development purposes)
+- API: Trading Economics API
+
+## Usage
+- Select Countries: From the dropdown menus, choose two countries to compare.
+- View Comparison: Click the "Compare" button to generate a bar chart comparing the GDP of the selected countries.
+- Interact: Hover over the bars in the chart to view detailed GDP values.
+
+## API Integration
+This project uses the Trading Economics API to fetch GDP data. Ensure you have an API key and update the API request URLs accordingly. Refer to the Trading Economics API Documentation for details on available endpoints and query parameters.
+
+## Installation
+To run this project locally, follow these steps:
+
+1. Clone the Repository:
+- git clone git@github.com:Rayken20/tradingeconomics.git
+2. Navigate to the Project Directory:
+-cd tradingeconomics
+3. Set Up a Virtual Environment:
+- python -m venv venv
+4. Install Dependencies:
+- If you are using Flask, install necessary dependencies. 
+5. Run the Application:
+- python app.py
+
